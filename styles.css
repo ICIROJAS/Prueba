@@ -1,0 +1,83 @@
+/* Estilo general */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo del título */
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo del campo de entrada */
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+/* Estilo del botón */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo de la lista de tareas */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+ul li {
+    background: white;
+    padding: 10px;
+    margin: 5px auto;
+    width: 60%;
+    font-size: 1rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedor de botones dentro de cada tarea */
+ul li .button-container {
+    display: flex;
+    gap: 5px; /* Ajusta la separación entre los botones */
+}
+
+/* Estilo para los botones dentro de cada tarea */
+ul li button {
+    background-color: #dc3545;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    margin: 0; /* Elimina márgenes adicionales */
+}
+
+ul li button:hover {
+    background-color: #a71d2a;
+}
