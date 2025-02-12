@@ -82,7 +82,3 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-    // Cargar tareas almacenadas al iniciar
-    cargarTareas();
-});
-
